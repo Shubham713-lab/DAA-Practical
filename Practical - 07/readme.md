@@ -1,4 +1,4 @@
-# README: Making Change Problem Using Dynamic Programming
+# Making Change Problem Using Dynamic Programming
 
 ## Overall Summary
 
