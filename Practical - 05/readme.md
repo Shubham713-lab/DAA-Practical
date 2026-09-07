@@ -1,6 +1,6 @@
-**# Knapsack Problem Using Dynamic Programming**
+# Knapsack Problem Using Dynamic Programming
 
-**## Overall Summary**
+## Overall Summary
 
 The ****Knapsack Problem**** is a classic optimization problem in which we determine the maximum total value that can be obtained by selecting items with given weights and values, while ensuring that the total weight does not exceed the capacity of the knapsack. In the ****0/1 Knapsack Problem****, each item can either be selected once or not selected at all.
 
@@ -18,7 +18,7 @@ If the item cannot fit within the current capacity, the value is carried forward
 
 The algorithm starts with `dp[0][w] = 0` because no value can be obtained when there are no items. Similarly, `dp[i][0] = 0` because a knapsack with zero capacity cannot contain any items. By storing and reusing previously calculated results, the algorithm avoids repeated computations and efficiently determines the maximum achievable value.
 
-**## Overall Conclusion**
+## Overall Conclusion
 
 The Knapsack Problem demonstrates how dynamic programming can transform an inefficient recursive or brute-force solution into an efficient algorithm by storing and reusing solutions to smaller subproblems. The DP approach is systematic and provides an effective way to determine the optimal combination of items within a given capacity.
 
